@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popular"
+        android:title="Popular"
+        android:icon="@drawable/popular"/>
+
+    <item
+        android:id="@+id/latest"
+        android:title="Latest"
+        android:icon="@drawable/latest"/>
+
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/video"
+        android:title="Videos"
+        android:icon="@drawable/video"/>
+
+    <item
+        android:id="@+id/saved"
+        android:title="Saved"
+        android:icon="@drawable/saved"/>
+
+
+
+</menu>

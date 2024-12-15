@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_topStories"
+            android:title="Top Stories"/>
+
+        <item
+            android:id="@+id/nav_UAE"
+            android:title="UAE"/>
+
+        <item
+            android:id="@+id/nav_pakistan"
+            android:title="Pakistan"/>
+
+        <item
+            android:id="@+id/nav_India"
+            android:title="India"/>
+
+        <item
+            android:id="@+id/nav_Business"
+            android:title="Buisness"/>
+
+        <item
+            android:id="@+id/nav_sports"
+            android:title="Sports"/>
+
+        <item
+            android:id="@+id/nav_lifestyle"
+            android:title="Lifestyle"/>
+
+        <item
+            android:id="@+id/nav_world"
+            android:title="World"/>
+
+        <item
+            android:id="@+id/nav_sci_tech"
+            android:title="Sci-Tech"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/aboutusimage"
+                android:title="About Us"/>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/baseline_contact_page_24"
+                android:title="Contact Us"/>
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Setting"/>
+        </menu>
+
+    </item>
+
+</menu>
